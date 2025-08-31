@@ -10,10 +10,10 @@ project "CommandLineTools"
 
     -- Include all c/c++ files in project
     files {
-        "src/**.c",
-        "src/**.h",
-        "src/**.cpp",
-        "src/**.hpp",
+        "./**.c",
+        "./**.h",
+        "./**.cpp",
+        "./**.hpp",
     }
 
     includedirs {
